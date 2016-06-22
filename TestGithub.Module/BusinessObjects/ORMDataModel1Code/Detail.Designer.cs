@@ -25,6 +25,7 @@ namespace TestGithub.Module.BusinessObjects.TestGithub
         }
         string fName;
         [Size(50)]
+        [DevExpress.Xpo.DisplayName(@"Te^n")]
         public string Name
         {
             get { return fName; }
@@ -32,6 +33,7 @@ namespace TestGithub.Module.BusinessObjects.TestGithub
         }
         string fNote;
         [Size(50)]
+        [DevExpress.Xpo.DisplayName(@"Ghi chu'")]
         public string Note
         {
             get { return fNote; }
@@ -39,6 +41,7 @@ namespace TestGithub.Module.BusinessObjects.TestGithub
         }
         Master fMaster_Id;
         [Association(@"DetailReferencesMaster")]
+        [DevExpress.Xpo.DisplayName(@"Cha")]
         public Master Master_Id
         {
             get { return fMaster_Id; }
@@ -46,6 +49,7 @@ namespace TestGithub.Module.BusinessObjects.TestGithub
         }
         Relation fRelation_Id;
         [Association(@"DetailReferencesRelation")]
+        [DevExpress.Xpo.DisplayName(@"Tham chie^'u")]
         public Relation Relation_Id
         {
             get { return fRelation_Id; }

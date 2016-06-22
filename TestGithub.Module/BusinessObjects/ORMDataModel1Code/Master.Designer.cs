@@ -25,6 +25,7 @@ namespace TestGithub.Module.BusinessObjects.TestGithub
         }
         string fName;
         [Size(50)]
+        [DevExpress.Xpo.DisplayName(@"Te^n")]
         public string Name
         {
             get { return fName; }
@@ -32,6 +33,7 @@ namespace TestGithub.Module.BusinessObjects.TestGithub
         }
         string fNote;
         [Size(50)]
+        [DevExpress.Xpo.DisplayName(@"Ghi Chu'")]
         public string Note
         {
             get { return fNote; }
