@@ -1,5 +1,19 @@
-﻿<Application>
-	<Options Skin="Visual Studio 2013 Blue" UIType="TabbedMDI" FormStyle="Ribbon">
-	  <RibbonOptions RibbonControlStyle="Office2013" />
-	</Options>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems>
+    <Items>
+      <Item Id="@d75ecbf7-44db-481b-abdf-8fb837050e6e" Caption="Test" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@fb850873-838f-4f26-8ad5-4101cbffaeca" Caption="Master" ViewId="Master_ListView" ImageName="Action_Grant" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options Skin="Visual Studio 2013 Blue" UIType="TabbedMDI" FormStyle="Ribbon">
+    <RibbonOptions RibbonControlStyle="Office2013" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="16.1.2.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="16.1.2.0" IsNewNode="True" />
+  </SchemaModules>
 </Application>
