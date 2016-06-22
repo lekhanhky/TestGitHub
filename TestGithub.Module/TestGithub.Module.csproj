@@ -102,6 +102,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BusinessObjects\ORMDataModel1Code\ConnectionHelper.cs" />
+    <Compile Include="BusinessObjects\ORMDataModel1Code\Detail.cs" />
+    <Compile Include="BusinessObjects\ORMDataModel1Code\Detail.Designer.cs">
+      <DependentUpon>Detail.cs</DependentUpon>
+    </Compile>
     <Compile Include="BusinessObjects\ORMDataModel1Code\Master.cs" />
     <Compile Include="BusinessObjects\ORMDataModel1Code\Master.Designer.cs">
       <DependentUpon>Master.cs</DependentUpon>

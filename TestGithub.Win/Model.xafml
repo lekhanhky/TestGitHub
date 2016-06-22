@@ -4,6 +4,7 @@
     <Items>
       <Item Id="@d75ecbf7-44db-481b-abdf-8fb837050e6e" Caption="Test" IsNewNode="True">
         <Items IsNewNode="True">
+          <Item Id="@549fef28-4554-4c47-8d56-3d8fa8164677" Caption="Detail" ViewId="Detail_ListView" ImageName="Action_Grant_Set" IsNewNode="True" />
           <Item Id="@fb850873-838f-4f26-8ad5-4101cbffaeca" Caption="Master" ViewId="Master_ListView" ImageName="Action_Grant" IsNewNode="True" />
         </Items>
       </Item>
