@@ -14,7 +14,7 @@ using System.ComponentModel;
 namespace TestGithub.Module.BusinessObjects.TestGithub
 {
 
-    public partial class Detail : XPLiteObject
+    public partial class Relation : XPLiteObject
     {
         int fId;
         [Key(true)]
@@ -30,27 +30,8 @@ namespace TestGithub.Module.BusinessObjects.TestGithub
             get { return fName; }
             set { SetPropertyValue<string>("Name", ref fName, value); }
         }
-        string fNote;
-        [Size(50)]
-        public string Note
-        {
-            get { return fNote; }
-            set { SetPropertyValue<string>("Note", ref fNote, value); }
-        }
-        Master fMaster_Id;
-        [Association(@"DetailReferencesMaster")]
-        public Master Master_Id
-        {
-            get { return fMaster_Id; }
-            set { SetPropertyValue<Master>("Master_Id", ref fMaster_Id, value); }
-        }
-        Relation fRelation_Id;
         [Association(@"DetailReferencesRelation")]
-        public Relation Relation_Id
-        {
-            get { return fRelation_Id; }
-            set { SetPropertyValue<Relation>("Relation_Id", ref fRelation_Id, value); }
-        }
+        public XPCollection<Detail> Details { get { return GetCollection<Detail>("Details"); } }
     }
 
 }

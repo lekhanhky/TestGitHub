@@ -110,6 +110,10 @@
     <Compile Include="BusinessObjects\ORMDataModel1Code\Master.Designer.cs">
       <DependentUpon>Master.cs</DependentUpon>
     </Compile>
+    <Compile Include="BusinessObjects\ORMDataModel1Code\Relation.cs" />
+    <Compile Include="BusinessObjects\ORMDataModel1Code\Relation.Designer.cs">
+      <DependentUpon>Relation.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Module.cs">
       <SubType>Component</SubType>
