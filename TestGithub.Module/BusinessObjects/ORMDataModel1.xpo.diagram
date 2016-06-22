@@ -13,7 +13,7 @@
     <commentShape Id="d73f515b-7a52-404c-ae22-afa0a51af76e" absoluteBounds="6.5, 1.375, 3.25, 1">
       <commentMoniker Id="af589fa8-ea75-4690-b009-71fe31585067" />
     </commentShape>
-    <commentConnector Id="23019154-85cb-4b70-9d2b-d3c5218baad1" edgePoints="[(6.5 : 1.875); (5.8 : 1.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <commentConnector Id="23019154-85cb-4b70-9d2b-d3c5218baad1" edgePoints="[(6.5 : 1.875); (5.8 : 1.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <commentReferencesSubjectsMoniker Id="c558e9ce-9d14-46d8-aeac-3fa75a6750c0" />
       <nodes>
         <commentShapeMoniker Id="d73f515b-7a52-404c-ae22-afa0a51af76e" />
@@ -31,7 +31,7 @@
     <commentShape Id="d768b396-b412-402b-b440-ab6c5bbacda0" absoluteBounds="4.25, 4.375, 4.5, 1">
       <commentMoniker Id="7fe5e58b-ae7c-49ea-a041-1a577a270274" />
     </commentShape>
-    <simpleAssociationConnector Id="81b4d3d8-80d9-4646-bd84-bccd423de353" edgePoints="[(4.3 : 1.89605607096354); (3.5500005 : 1.89605607096354)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+    <simpleAssociationConnector Id="81b4d3d8-80d9-4646-bd84-bccd423de353" edgePoints="[(4.3 : 1.89605607096354); (3.5500005 : 1.89605607096354)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <simpleAssociationMoniker Id="d4149dbd-2d6b-482f-8356-d311396221b9" />
       <relativeChildShapes />
       <nodes>

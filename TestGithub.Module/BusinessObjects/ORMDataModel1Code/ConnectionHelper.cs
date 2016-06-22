@@ -15,7 +15,7 @@ namespace TestGithub.Module.BusinessObjects.TestGithub
 {
     public static class ConnectionHelper
     {
-        public const string ConnectionString = @"XpoProvider=MSSqlServer;data source=.;user id=sa;password=lekhanhky;initial catalog=TestGithub;Persist Security Info=true";
+        public const string ConnectionString = @"XpoProvider=MSSqlServer;data source=KADE;user id=sa;password=lekhanhky;initial catalog=TestGithub;Persist Security Info=true";
         public static void Connect(DevExpress.Xpo.DB.AutoCreateOption autoCreateOption)
         {
             XpoDefault.DataLayer = XpoDefault.GetDataLayer(ConnectionString, autoCreateOption);
