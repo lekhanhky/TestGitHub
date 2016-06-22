@@ -17,4 +17,24 @@
     <SchemaModule Name="SystemModule" Version="16.1.2.0" IsNewNode="True" />
     <SchemaModule Name="SystemWindowsFormsModule" Version="16.1.2.0" IsNewNode="True" />
   </SchemaModules>
+  <Views>
+    <DetailView Id="Detail_DetailView">
+      <Items>
+        <PropertyEditor Id="Name" Caption="Ten" />
+        <PropertyEditor Id="Note" Caption="Ghi chu" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Detail" RelativeSize="100">
+              <LayoutItem Id="Name" Index="0" RelativeSize="4.2666666666666666" />
+              <LayoutItem Id="Note" Index="1" RelativeSize="3.2" />
+              <LayoutItem Id="Master_Id" Index="2" RelativeSize="92.533333333333331" />
+              <LayoutItem Id="Id" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
 </Application>
