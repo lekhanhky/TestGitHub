@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="42eeb920-c548-4eb8-80e4-b2c7a9f74ba9" dbName="TestGithub" connectionInfo="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxEZXZFeHByZXNzWHBvR2VuZXJhdG9yU2V0dGluZ3MgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgcHJvdmlkZXJLZXk9Ik1TU3FsU2VydmVyIj4NCiAgPHBhcmFtZXRlcj4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0ic2VydmVyIiB2YWx1ZT0iS0FERSIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0iZGF0YWJhc2UiIHZhbHVlPSJUZXN0R2l0aHViIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJ1c2VJbnRlZ3JhdGVkU2VjdXJpdHkiIHZhbHVlPSJGYWxzZSIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0idXNlcmlkIiB2YWx1ZT0ic2EiIC8+DQogICAgPENvbm5lY3Rpb25QYWdlU2V0dGluZ3NJdGVtIG5hbWU9InBhc3N3b3JkIiB2YWx1ZT0ibGVraGFuaGt5IiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJyZWFkIG9ubHkiIHZhbHVlPSIxIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJnZW5lcmF0ZUNvbm5lY3Rpb25IZWxwZXIiIHZhbHVlPSJ0cnVlIiAvPg0KICA8L3BhcmFtZXRlcj4NCjwvRGV2RXhwcmVzc1hwb0dlbmVyYXRvclNldHRpbmdzPg==" namespace="TestGithub.Module.BusinessObjects.TestGithub" connectionString="XpoProvider=MSSqlServer;data source=KADE;user id=sa;password=lekhanhky;initial catalog=TestGithub;Persist Security Info=true" dataBaseShemaInfo="H4sIAAAAAAAEAO1Y30/iQBB+N/F/aPrs0pb+xBTMCWqI54WIXu7NLN0BmytbrrsFvL/+tmUpFIqKGo3xeIDut7Oz883MzmzxT+bjSJlCwsKYNlWjpqsnrcMD/xQz6PM4wSPo0mGsCCnKjucsbKr3nE+ONW02m9VmZi1ORlpd1w3t19X3fnAPY4xCyjimAajFKvL0KlXsqij+DR5EwLIt8/ESWQOWkPIDj6GpdoDjMFKLSTHdS8IxTh4u4UHpslsa/kmFHE9SWJcScu04SseUlUABM56EdNTqEl+Tj6VV2vYyX1ttuQ5XbeB3Thewsvi5eZgI67qUm3VVUuoSVRgudEmrxaBLgPKQF4j2DJ393Pil0uxbVfrhX/Fs6y/SEPO9NZR4XWHGIbnL6Gkl71V4tEsJzGHLdTks1fUu72TwHw3zzkA/Gepq0zJUGlIisW2xfx4nEI6oiOQWkdWUssqdPK+XftqbReHevciUzktugPh9hcOepyxz4coFJT9WOc3XcmUbFSBLg9YiBaRAjhRCZzRfNMQRA1+To2K2E7IMuJ0QzAuhMljIXqQh6ZKWLj+o4mv58TUpXCyW/EslbCcsJjISi8ncz2vDktij7CoYZidjF8FXk1zLrpfwzB6/CFNRRL8G07Vy9KnpVqGy3OxxTdmu6f+vKe9/TXnFVUMG8BNcNdYYb/VNecYWB+ktOqLrEscybdQgYCHLJQbyLBcj1xmanuHopg7Be3fESnL7EiyRJDr2PPCQWTdMZHlgIm9o11HdMTzdgmHdshsf0hHfnKkX2IMBNjDChttAVh27CDccEd0sqLozwI5nfkhHfHumQwAi4oZI0CDIsm2CBpbjIbcBHjYtwx7Yzpu2CDleifjZ6zWQXhIHOSiPrf9z8S4uLrbTs/kkAcZqHcxxbWo4NeNIkdPNbFSr1/QjpZ1GPE2gSSHlCY6OlF46iMIgu4HHv4E2B55HDNe2iKvrYDWwry23yPdrR5gxYFkArtPCu/43IkyDYTgvykkG9dNhCbqGcTyFTcEFuinbxgxatzS4x3QE4hjn44VrqmwQ/TGeQMLDD7Zthxn+BVBIRHq14/FYdD0mc3QLLgl3gIkqDcl5KFJhY0V57vDA1zb+hGn9A8B5RE2tEQAA" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <comments>
+    <dataBaseObjectModelHasComments Id="8a7b6828-9147-40db-bef4-81b0b8bbe8f4">
+      <comment Id="af589fa8-ea75-4690-b009-71fe31585067" text="The 'PK_Master' index is ignored, because 'Id' is a key" name="MasterComment">
+        <subjects>
+          <commentReferencesSubjects Id="c558e9ce-9d14-46d8-aeac-3fa75a6750c0">
+            <xpObjectMoniker Id="077d6435-9de4-47d1-847a-76f3816030ec" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+  </comments>
+  <classes>
+    <dataBaseObjectModelHasClasses Id="787339da-6553-434f-aeff-97ebe28a4c4b">
+      <xpObject Id="077d6435-9de4-47d1-847a-76f3816030ec" name="Master" baseClass="XPLiteObject" userFileName="Master" designerFileName="Master.Designer" className="Master" virtualBaseClass="XPLiteObject" persistent="Master" virtualName="Master">
+        <fields>
+          <generalXpObjectHasFields Id="a7bcd704-fc5b-4775-9a67-ccca3ff923ed">
+            <field Id="0d0a88e8-3213-48e3-8f52-261804ef2459" name="Id" columnType="Int32" key="true" isIdentity="true" persistent="Id" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a385d66b-a26b-450a-b411-7c3666665c1a">
+            <field Id="8c5bba1a-a179-42a7-a965-9847a06ba683" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f9d10bb7-16c0-41e9-b243-34af5e4d49a1">
+            <field Id="8feed459-dc9d-455d-b468-79e8a3415b56" name="Note" persistent="Note" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="50" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
